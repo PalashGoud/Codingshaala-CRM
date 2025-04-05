@@ -52,7 +52,7 @@ const Sidebar = () => {
           <FaUsers className="text-2xl" />
           <span className="text-sm mt-1">Account</span>
         </li>
-        <li
+        {/* <li
           onClick={() => navigate("/studentlist")}
           className="flex flex-col items-center cursor-pointer p-2 hover:text-blue-400 transition duration-300"
         >
@@ -65,7 +65,7 @@ const Sidebar = () => {
         >
           <FaUsers className="text-2xl" />
           <span className="text-sm mt-1">Progress</span>
-        </li>
+        </li> */}
         
       </ul>
     </div>
