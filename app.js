@@ -17,7 +17,7 @@ app.use("/api/student", require("./routes/student"));
 app.use('/api/user', require("./routes/user"))
 
 
-const PORT = process.env.PORT || 5001;
+const PORT = process.env.PORT || 5009;
 app.listen(PORT, () => console.log(`Server running at ${PORT}`));
 
 
